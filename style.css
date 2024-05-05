@@ -1,23 +1,145 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 
 }
-header{
-    background-color: #f0f0f0;
+.navbar{
+    background-color:transparent;
     width: 100%;
     position: fixed;
-    z-index: 999;
     display: flex;
-    flex-wrap
-        justify-content: space-between;
+    z-index: 1030;
+    flex-direction: row;
+    justify-content:space-around;
     align-items: center;
-    padding: 10px 50px 10px 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+.nav a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    color: #8f754f;
+}
+section{
+    padding: 50px 50px;
+}
+.section-1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/drew.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.s1-line1{
+    color: rgba(255, 255, 255, .5);
+    font-size: calc(1.3rem + .6vw);
+    line-height: 1.86em;
+    margin-bottom: 3rem;
+}
+.s1-line2{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 600;
+}
+.s1-line3{
+    color: rgba(255, 255, 255, .5);
+    font-size: calc(1.3rem + .6vw);
+    line-height: 1.86em;
+    margin-bottom: 3rem;
+}
+.lern-btn{
+    color: #ffffff;
+    background-color: #8f754f;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: .25rem;
+    
 
 }
+.contact-btn{
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: .25rem;
+    border: 1px solid #fff;
+    
+
+}
+.btn a:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.gallrey{
+    width: 90%;
+    margin: 0 auto;
+}
+.gallrey h3{
+    text-align:center;
+}
+.itm-gallrey{
+    width: 33%;
+    display: inline-block;
+}
+.itm-gallrey img {
+    width: 100%;
+
+}
+.abuot{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.itm-abuot{
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+.abuot img{
+    width: 100%;
+}
+.section-2{
+    background-color: #eddddd52;
+}
+.location{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    display: flex; 
+  
+}
+.location img {
+    width: 60%;
+    padding-left: 40px;;
+
+}
+.text{
+    text-align: center;
+}
+
