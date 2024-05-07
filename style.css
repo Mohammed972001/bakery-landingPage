@@ -142,4 +142,26 @@ section{
 .text{
     text-align: center;
 }
+.footer{
+    background-color: #403d38;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.min-div{
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+    display: flex; 
+}
+.div-section{
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, .5);
+}
+
+.div-section h3, h4 {
+    color: #ffffff;
+}
 
